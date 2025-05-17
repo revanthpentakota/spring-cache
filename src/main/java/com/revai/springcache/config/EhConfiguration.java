@@ -11,6 +11,13 @@ import org.springframework.context.annotation.Configuration;
 
 import java.time.Duration;
 
+/**
+ *
+ * Caching is a temporary storage near to the client helps to store
+ * frequently accessed data, there by reducing need to fetch info
+ * from the database for repetitive request.
+ */
+
 @Configuration
 @EnableCaching
 public class EhConfiguration {
